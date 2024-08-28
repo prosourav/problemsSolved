@@ -6,5 +6,9 @@ const data = {
 };
 
  for(x in data){
-  console.log(data[x]);
- }
+  if(data[x]==='kolkata'){
+    data[x] = 'Hyderabad';
+  }
+ };
+
+ console.log(data);
