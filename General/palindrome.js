@@ -7,7 +7,8 @@
 
 const input = 121;
 const length = input.toString().length;
-let outPut = Array.from(input.toString());
+let outPut = Array.from(String(input));
+console.log("#",outPut);
 
 for (let i = 0; i < Math.floor(outPut.length / 2); i++) {
   const temporary = outPut[i];
