@@ -6,3 +6,5 @@ const newObj = Object.entries(myObj).map(item => {
   return newItem;
 });
 console.log(newObj);
+
+console.log(Object.entries(myObj));
